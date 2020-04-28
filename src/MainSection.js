@@ -6,8 +6,8 @@ export default class MainSection extends Component {
             <div>
                 <div className="dashed-line"></div>
 
-                <h2>Chocolate Pizza</h2>
-                <p className="posted-date" >POSTED ON 15 DEC 2013 / DESSERTS </p>
+                <h2>{this.props.pizzaStyle}</h2>
+                <p className="posted-date" >POSTED ON { this.props.pubDate } / DESSERTS </p>
                 <img src="print-icon.png" />
 
               <img src="choco-pizza.png" />
