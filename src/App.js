@@ -5,12 +5,13 @@ import RecipeSection from './RecipeSection'
 import BottomThird from './BottomThird'
 import Footer from './Footer'
 import './App.css'
+import { ingredients } from './ingredients'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-
+      
       <Header
       picSource = "small-logo.png"
       />

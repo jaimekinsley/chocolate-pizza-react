@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import { ingredients } from 'ingredients'
 
 export default class RecipeSection extends Component {
     render() {
@@ -6,6 +7,13 @@ export default class RecipeSection extends Component {
             <div>
                 <section>
             <img src='list-bg.png'/>
+
+              {/* {  this.props.ingredients.map((listItem) => {
+                    return <ingredients
+                        ingredient = { listItem.ingredient }
+                    />
+                })
+            } */}
             
             <ul className="recipe-list">
                 <li>1 1/2 cups milk</li>
