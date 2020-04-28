@@ -19,7 +19,7 @@ export default class App extends Component {
       pizzaStyle="Chocolate Pizza"
       pubDate = "15 DEC 2013"
       /> 
-      <RecipeSection/>
+      <RecipeSection ingredients={ingredients}/>
       <BottomThird
       name="Vanessa Stevenson"/>
       <Footer/>
