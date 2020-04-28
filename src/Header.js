@@ -5,7 +5,7 @@ export default class Header extends Component {
         return (
             <div>
             <div className="header-left">
-                <img src = { this.props.picSource } />
+                <img className="fork-knife" src = { this.props.picSource } />
                 <h1>Delicious</h1>
                 <p className="tagline">THE BEST FOOD BLOG ON THE WEB</p>  
             </div>

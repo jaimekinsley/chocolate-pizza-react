@@ -8,7 +8,9 @@ export default class MainSection extends Component {
 
                 <h2>{this.props.pizzaStyle}</h2>
                 <p className="posted-date" >POSTED ON { this.props.pubDate } / DESSERTS </p>
-                <img src="print-icon.png" />
+                <div className="print">
+                <img src="print-icon.png" /><span>PRINT</span>
+                </div>
 
               <img src="choco-pizza.png" />
               <p className="instructions"> Melt butter over medium heat in a saucepan.
