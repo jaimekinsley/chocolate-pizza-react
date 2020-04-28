@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-import Item from './IngredientItem';
-// import { ingredients } from 'ingredients'
+import Item from './Item';
+import { ingredients } from './ingredients'
 
 export default class RecipeSection extends Component {
     render() {
         return (
             <div>
                 <section>
-            <img src='list-bg.png'/>
+            <img src='list-bg.png' alt="" />
             <ul>
-              {  this.props.ingredients.map((listItem) => {
-                    return <Item
-                        ingredientItem = { listItem.ingredient }
+              {  ingredients.map((listItem) => {
+                    return <Item 
+                         ingredientItem =  { listItem.ingredient } 
                     />
                 })
             }

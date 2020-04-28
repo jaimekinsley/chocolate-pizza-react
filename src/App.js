@@ -5,7 +5,7 @@ import RecipeSection from './RecipeSection'
 import BottomThird from './BottomThird'
 import Footer from './Footer'
 import './App.css'
-import { ingredients } from './ingredients'
+// import { ingredients } from './ingredients'
 
 export default class App extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class App extends Component {
       pizzaStyle="Chocolate Pizza"
       pubDate = "15 DEC 2013"
       /> 
-      <RecipeSection ingredients={ingredients}/>
+      <RecipeSection/>
       <BottomThird
       name="Vanessa Stevenson"/>
       <Footer/>

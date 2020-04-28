@@ -9,10 +9,10 @@ export default class MainSection extends Component {
                 <h2>{this.props.pizzaStyle}</h2>
                 <p className="posted-date" >POSTED ON { this.props.pubDate } / DESSERTS </p>
                 <div className="print">
-                <img src="print-icon.png" /><span>PRINT</span>
+                <img src="print-icon.png" alt="" /><span>PRINT</span>
                 </div>
 
-              <img src="choco-pizza.png" />
+              <img src="choco-pizza.png" alt=""  />
               <p className="instructions"> Melt butter over medium heat in a saucepan.
               Add brown sugar and stir to dissolve. Halve all of the figs and toss in the 
               saucepan with water and lemon juice. Cook over medium heat, stirring frequently, 
