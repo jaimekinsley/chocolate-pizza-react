@@ -4,6 +4,7 @@ import MainSection from './MainSection'
 import RecipeSection from './RecipeSection'
 import BottomThird from './BottomThird'
 import Footer from './Footer'
+import './App.css'
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class App extends Component {
       <Header/>
       <MainSection/> 
       <RecipeSection/>
-      <BottomThird/>
+      <BottomThird
+      name="Vanessa Stevenson"/>
       <Footer/>
 
       </div>

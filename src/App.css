@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa&family=Playball&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 900px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-family: 'Playball', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    font-family:'Anton', sans-serif; 
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tagline {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 58px;
+    bottom: 27px;
 }
 
-.App-link {
-  color: #61dafb;
+.fork-knife {
+    float:left;
+    margin-right: 10px;
+    width: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-right {
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+img:nth-child(6) {
+    padding: 0px 8px 0px 0px;
+}
+
+.posted-date {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    bottom: 20px;
+    font-size: 13px;
+}
+
+.print {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+
+.instructions {
+    text-indent: 25px;
+    color: rgb(177, 170, 170);
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    position: relative;
+    left: 60px;
+    bottom: 250px;
+    margin: auto;
+
+    
+    font-family: 'Comfortaa', cursive;
+    color: rgb(117, 66, 53);
+    line-height: 28px;
+    }
+
+.line-through {
+    text-decoration: line-through;
+}
+
+
+.bio img {
+    float: left;
+    padding-right: 15px;
+}
+
+.vanessa {
+    font-weight: bold;
+    color: rgb(117, 111, 111);
+    font-size: 20px;
+}
+
+.about-vanessa {
+    color: rgb(177, 170, 170);
+    width: 600px;
+    font-size: 17px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+footer {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: rgb(129, 124, 124);
+    font-size: 14px;
+    line-height: 20px; 
+}
+
+button {
+    float: right;
+    position: relative;
+    bottom: 93px;
+    background-color: rgba(174, 86, 64, 0.938);
+    color: white;
+    font-size: 15px;
+    width: 165px;
+    height: 50px;
+}
+
+.dashed-line {
+    width: 100%;
+    height: 16px;
+    background-image: url('./hr-img.png');
+    margin: 20px 0px;
+}
+
+.bottom-third {
+    position: relative;
+    bottom: 200px;
 }
